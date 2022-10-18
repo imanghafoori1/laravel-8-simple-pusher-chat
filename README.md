@@ -24,12 +24,6 @@ composer install
 
 Duplicate `.env.example` and rename it `.env`
 
-Then run:
-
-```bash
-php artisan key:generate
-```
-
 ### Prerequisites
 
 #### Setup Pusher
@@ -52,12 +46,6 @@ PUSHER_APP_CLUSTER=
 ```
 
 #### Database Migrations
-
-Be sure to fill in your database details in your `.env` file before running the migrations:
-
-```bash
-php artisan migrate
-```
 
 And finally, start the application:
 
